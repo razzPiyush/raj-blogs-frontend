@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+}
+
+.homeimg{
+  padding-top:20px;
+  padding-bottom: 20px;
+  height: 80vh;
+  width: 100%;
+  margin-top: -25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/backimage.jpg")
+
+}
+
+.footer{
+  width: 100%;
+  height: 9vh;
+  align-items: center;
+  bottom: 0px;
+  justify-content: center;
+  background-image: linear-gradient(to right, #183c70, #00669a, #008f98, #00b26d, #99ca2a);
+}
+
+.copyright{
+  display: inline-block;
+  margin-top: 4vh;
+  margin-left: 35%;
+}
+
+.addBlogCard{
+   width: 50% !important;
+   height: 75%;
+}
+
+.darkfont{
+  color: black !important;
+}
+
+.instagram{
+  background-image: linear-gradient(to right, #82b5fe, #00cafb, #00d7d8, #6ddda5, #bcda7b);
+  }
