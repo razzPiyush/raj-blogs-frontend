@@ -35,7 +35,7 @@ const BlogDetail = () => {
   }, [id]);
   const sendRequest = async () => {
     const res = await axios
-      .put(`http://localhost:5000/api/blog/update/${id}`, {
+      .put(`https://raj-blogs.onrender.com/api/blog/update/${id}`, {
         title: inputs.title,
         description: inputs.description,
       })
