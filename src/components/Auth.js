@@ -22,7 +22,7 @@ const Auth = () => {
   };
   const sendRequest = async (type = "login") => {
     const res = await axios
-      .post(`https://raj-blogs.onrender.com/api/user/${type}`, {
+      .post(`https://raj-blogs-frontend.vercel.app/api/user/${type}`, {
         name: inputs.name,
         email: inputs.email,
         password: inputs.password,
