@@ -6,7 +6,7 @@ const Blogs = () => {
   const [blogs, setBlogs] = useState();
   const sendRequest = async () => {
     const res = await axios
-      .get("https://raj-blogs-backend.vercel.app/api/blog")
+      .get("https://raj-blogs.vercel.app/api/blog")
       .catch((err) => console.log(err));
     const data = await res.data;
     return data;
