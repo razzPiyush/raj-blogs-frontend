@@ -19,7 +19,7 @@ const BlogDetail = () => {
   };
   const fetchDetails = async () => {
     const res = await axios
-      .get(`http://localhost:3000/api/blog/${id}`)
+      .get(`http://raj-blogs-frontend.vercel.app/api/blog/${id}`)
       .catch((err) => console.log(err));
     const data = await res.data;
     return data;
@@ -35,7 +35,7 @@ const BlogDetail = () => {
   }, [id]);
   const sendRequest = async () => {
     const res = await axios
-      .put(`https://raj-blogs.onrender.com/api/blog/update/${id}`, {
+      .put(`https://raj-blogs-frontend.vercel.app/api/blog/update/${id}`, {
         title: inputs.title,
         description: inputs.description,
       })
