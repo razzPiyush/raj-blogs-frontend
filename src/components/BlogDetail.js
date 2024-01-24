@@ -19,7 +19,7 @@ const BlogDetail = () => {
   };
   const fetchDetails = async () => {
     const res = await axios
-      .get(`http://raj-blogs.vercel.app/api/blog/${id}`)
+      .get(`http://raj-blogs.onrender.com/api/blog/${id}`)
       .catch((err) => console.log(err));
     const data = await res.data;
     return data;
