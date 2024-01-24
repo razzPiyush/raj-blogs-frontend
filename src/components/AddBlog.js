@@ -22,7 +22,7 @@ const AddBlog = () => {
 
   const sendRequest = async () => {
     const res = await axios
-      .post("https://raj-blogs.vercel.app/api/blog/add", {
+      .post("https://raj-blogs.onrender.com/api/blog/add", {
         title: inputs.title,
         description: inputs.description,
         image: inputs.imageURL,
